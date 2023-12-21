@@ -1,0 +1,89 @@
+.header {
+    background-color: var(--color1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    height: 100vh;
+    background-color: var(--lightgray);
+}
+.header .header_body {
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 2rem;
+  }
+  .header .header_body .logo {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: var(--color4);
+  }
+  .header .header_body .navbar a {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--white);
+  }
+  
+  .header .header_body .cart {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--white);
+  }
+  .header .header_body .navbar a:hover,
+  .header .header_body .cart:hover {
+    color: var(--color4);
+  }
+  .header .header_body .cart span {
+    padding: 0 0.5rem;
+  }
+  #menu-btn {
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--white);
+    display: none;
+  }
+  .heading {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 1.5rem 0 2rem;
+    color: var(--color1);
+  }
+  .add_product,
+  .update_product {
+    max-width: 600px;
+    background-color: var(--color2);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .add_product .input_fields,
+  .update_product .input_fields {
+    .submit_btn,
+    .edit_btn,
+    .cancel_btn {
+      display: block;
+      width: 50%;
+      text-align: center;
+      background-color: var(--color1);
+      color: var(--white);
+      font-size: 1.7rem;
+      padding: 1.2rem 3rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      margin-top: 2rem;
+      margin: 0 auto;
+    }padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    background-color: var(--white);
+    margin: 1.5rem 0;
+    width: 100%;
+  }
